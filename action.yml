@@ -1,6 +1,15 @@
 ---
 name: "mdbook"
 description: "build mdbook outputs"
+inputs:
+  inputDir:
+    description: 'mdbook input directory'
+    required: false
+  outputDir:
+    description: 'mdbook output directory'
+    required: false
+    default: 
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
