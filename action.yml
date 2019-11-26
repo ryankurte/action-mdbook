@@ -8,7 +8,9 @@ inputs:
   outputDir:
     description: 'mdbook output directory'
     required: false
-
+branding:
+  icon: 'book-open'
+  color: 'purple'
 runs:
   using: 'docker'
   image: 'Dockerfile'
