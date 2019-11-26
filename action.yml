@@ -1,6 +1,6 @@
 ---
-name: "mdbook"
-description: "build mdbook outputs"
+name: "rust-mdbook"
+description: "build rust mdbook outputs"
 inputs:
   inputDir:
     description: 'mdbook input directory'
