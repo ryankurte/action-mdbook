@@ -1,6 +1,6 @@
 ---
-name: "mdbook"
-description: "build mdbook outputs"
+name: "rust-mdbook"
+description: "build rust mdbook outputs"
 inputs:
   inputDir:
     description: 'mdbook input directory'
@@ -8,8 +8,9 @@ inputs:
   outputDir:
     description: 'mdbook output directory'
     required: false
-    default: 
-
+branding:
+  icon: 'book-open'
+  color: 'purple'
 runs:
   using: 'docker'
   image: 'Dockerfile'
