@@ -2,6 +2,11 @@
 
 ARGS=""
 
+echo "Current dir: $(shell pwd)"
+echo "Files:"
+ls
+
+
 if [[ -n "$INPUT_OUTPUT_DIR" && "$INPUT_OUTPUT_DIR" != "" ]]; then
   echo "Using output dir: $INPUT_OUTPUT_DIR"
   ARGS="$ARGS -d $INPUT_OUTPUT_DIR"
