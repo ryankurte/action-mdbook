@@ -1,0 +1,6 @@
+---
+name: "mdbook"
+description: "build mdbook outputs"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
